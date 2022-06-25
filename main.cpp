@@ -8,7 +8,7 @@
 
 void leerMatriz(int m[20][20]){
   for (int i = 0; i < 20*20; i++)
-    scanf("%d", m[0][i]);
+    scanf("%d", &m[0][i]);
 }
 
 int main() {
