@@ -19,12 +19,11 @@ int main() {
   while(n != -1){
     switch(n){
       case 1 :
-        descrifrar();
+        descifrar();
         break;
       case 2 :
         leerMatriz(matriz);
         printf("%d", maxProd3(matriz));
-        break;
     }
     scanf("%d", &n);
   }
